@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  height: 100vh;
+  padding: 20px;
+  background-color: #eee;
 }
 
 .App-logo {
@@ -19,4 +23,36 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.tabs {
+  flex: 1
+}
+
+.tabs li {
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  flex: 3;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  
+}
+
+.btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 4px;
+  outline: none;
+}
+
+input {
+  min-width: 200px;
+  padding: 5px 3px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
